@@ -5,13 +5,14 @@ const handler = async (m, {conn}) => {
     const _uptime = process.uptime() * 1000;
     const uptime = clockString(_uptime);
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-    const str = `╭────[ *𝙁𝘼𝙎𝙏 𝙊𝘽𝘽 𝘿𝙊𝙈𝙄𝙉𝘼 🇧🇷📲* ]
+    const str = `╭────[ *𝑭𝑨𝑺𝑻 𝑶𝑩𝑩 𝑫𝑶𝑴𝑰𝑵𝑨 🇧🇷📲* ]
 │
 │ *➤ ʜᴏʟᴀ ${taguser}*
 │
-│ *=> 🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* ${uptime}
-│ *=> ✅ 𝖇𝖔𝖙 𝖉𝖊 𝖚𝖘𝖔 𝖕𝖗𝖎𝖛𝖆𝖉𝖔*
-│ *=> 👑 𝕮𝖗𝖊𝖆𝖉𝖔𝖗:  𝕵𝖊𝖓 𝖋𝖆$✝️*
+│ *=> 👾 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:* ${uptime}
+│ *=> ✅ 𝙗𝙤𝙩 𝙙𝙚 𝙪𝙨𝙤 𝙥𝙧𝙞𝙫𝙖𝙙𝙤*
+│ *=> 👑 𝙊𝙬𝙣𝙚𝙧: 𝙅𝙚𝙣 𝙛𝙖𝙨𝙩*
+│ *=> 🏴 𝑭𝑨𝑺𝑻 𝑶𝑩𝑩 𝑫𝑶𝑴𝑰𝑵𝑨 🇧🇷📲*
 ╰────────────────`.trim();
     if (m.isGroup) {
       conn.sendMessage(m.chat, {text: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm, "containsAutoReply": true, "mediaType": 1, "thumbnailUrl": "https://telegra.ph/file/e644d5755b11f162a026e.jpg", "mediaUrl": `https://github.com/jenfast/TheMystic-Bot-MD`, "sourceUrl": `https://github.com/jenfast/TheMystic-Bot-MD`}}}, {quoted: m});
