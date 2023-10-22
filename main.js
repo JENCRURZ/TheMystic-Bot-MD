@@ -477,7 +477,7 @@ setInterval(async () => {
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
   const bio = `🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ: ${uptime}`;
-  await mconn.conn.updateProfileStatus(bio).catch((_) => _);
+  //await mconn.conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
   const d = isNaN(ms) ? '--' : Math.floor(ms / 86400000);
