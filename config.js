@@ -32,12 +32,12 @@ global.owner = [
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
-global.packname = 'team';
-global.author = 'fastobb';
-global.wm = 'FAST DOMINA';
+global.packname = '𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙';
+global.author = '𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙';
+global.wm = '𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙';
 global.titulowm = '🤖 ＴＨＥ ＭＹＳＴＩＣ － ＢＯＴ 🤖';
 global.titulowm2 = `乂  𝚃 𝙷 𝙴  𝙼 𝚈 𝚂 𝚃 𝙸 𝙲  -  𝙱 𝙾 𝚃  乂`
-global.igfg = 'FAST OBB DOMINA.';
+global.igfg = '𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙 𝖙𝖊𝖆𝖒 𝖋𝖆𝖘𝖙.';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
