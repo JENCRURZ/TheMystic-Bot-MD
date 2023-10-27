@@ -352,6 +352,12 @@ handler.all = async function(m, {conn}) {
     mconn.conn.reply("Eres tú y tu mamita")
   }
 
+  if (!chat.isBanned && m.text.match(/(Gay|gay|gei|gey)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
+mconn.conn.reply("eres")
+  }
+  
   if (!chat.isBanned && m.text.match(/(no digas eso papu)/gi)) {
     if (!db.data.chats[m.chat].audios) return;
     if (!db.data.settings[mconn.conn.user.jid].audios_bot && !m.isGroup) return;
