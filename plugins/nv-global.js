@@ -347,7 +347,7 @@ handler.all = async function(m, {conn}) {
   if (!chat.isBanned && m.text.match(/(Gay|gay)/gi)) {
     if (!db.data.chats[m.chat].audios) return;
     if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
-mconn.conn.reply("Es +58 412-7952548")
+mconn.conn.sendMessage(m.chat, {text: "Es +58 412-7952548"}, {quoted: m})
   }
   
   if (!chat.isBanned && m.text.match(/(no digas eso papu)/gi)) {
