@@ -40,7 +40,7 @@ handler.all = async function(m, {conn}) {
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
   }
 
-  if (!chat.isBanned && m.text.match(/(baÃ±ate|BaÃ±ate)/gi)) {
+  if (!chat.isBanned && m.text.match(/(Bañate|bañate)/gi)) {
     if (!db.data.chats[m.chat].audios) return;
     if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
     const vn = './media/Banate.mp3';
