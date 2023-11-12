@@ -361,4 +361,4 @@ mconn.conn.sendMessage(m.chat, {text: "erez, te chingue puto"}, {quoted: m})
 
   return !0;
 };
-export default handler;
+export default handler
